@@ -1,5 +1,6 @@
 body{
     background: #f7f7f7;
+    font-family: Fira Code;
 }
 
 .photo{
@@ -7,6 +8,16 @@ body{
     border-radius: 50% ;
 }
 #title, .subtitle, .post-title{
+    color: #505050;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: line-through;
     color: #505050;
 }
  
@@ -29,6 +40,7 @@ body{
 .post_content{
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image{
