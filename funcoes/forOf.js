@@ -20,7 +20,7 @@ console.log('-----------------------------');
 
 function logNumeros(nums) {
     for(num of nums){
-        console.log(nums);
+        console.log(num);
     }
 }
 
